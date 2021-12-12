@@ -76,7 +76,7 @@ fun main() {
         for (i in 1..steps) {
             incMatrix(matrix)
             count += matrixCleanup(matrix)
-            //printMatrix(matrix)
+            printMatrix(matrix)
         }
         return count
     }
